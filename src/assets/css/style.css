@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.is-active {
+    @apply bg-blue-100 text-blue-800;
+}
