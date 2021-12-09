@@ -166,6 +166,7 @@ export default {
   data() {
     return {
       weather: {},
+      record: {},
     };
   },
   mounted() {
@@ -181,6 +182,21 @@ export default {
         )
         .then((response) => {
           this.weather = response.data;
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+    loadLastDataFromDevice() {
+      this.$axios
+        .get("https://localhost:5001/api/Records", {
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+            "Content-type": "application/json",
+          },
+        })
+        .then((response) => {
+          this.record = response;
         })
         .catch((error) => {
           console.log(error);
