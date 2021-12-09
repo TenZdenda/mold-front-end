@@ -107,7 +107,7 @@
                   d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                 />
               </svg>
-              <p class="font-bold">Roskilde, Denmark</p>
+              <p class="font-bold">Copenhagen, Denmark</p>
             </div>
             <div class="md:flex md:space-x-10 space-y-10 md:space-y-0">
               <div class="flex space-x-4 items-center">
