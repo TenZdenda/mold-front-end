@@ -3,9 +3,9 @@
     <div class="max-w-6xl mx-auto p-4 space-y-10">
       <Navbar />
       <div class="space-y-10">
-        <div class="md:flex md:space-x-3">
+        <div class="md:flex md:space-x-10">
           <div class="flex-1">
-            <div class="flex items-center space-x-10">
+            <div class="flex items-center space-x-4">
               <p>Data from</p>
               <a
                 href="https://www.weatherapi.com"
