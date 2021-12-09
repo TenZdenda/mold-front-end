@@ -113,7 +113,7 @@ export default {
       this.$axios
         .get(process.env.VUE_APP_PRODUCTION_URL + "/api/Records")
         .then((response) => {
-          response.data.slice(0, 25).forEach((item) => {
+          response.data.slice(0, 24).forEach((item) => {
             array.push([
               {
                 id: item.id,
